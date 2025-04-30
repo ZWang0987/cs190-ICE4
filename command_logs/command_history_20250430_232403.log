@@ -1,0 +1,23 @@
+[2025-04-30 23:24:03] [/workspaces/cs190-ICE4] source .devcontainer/shell.sh
+[2025-04-30 23:24:39] [/workspaces/cs190-ICE4] ls 
+[2025-04-30 23:25:33] [/workspaces/cs190-ICE4] ls exercise/ > output.txt
+[2025-04-30 23:26:18] [/workspaces/cs190-ICE4] sadfasdfsadf
+[2025-04-30 23:26:28] [/workspaces/cs190-ICE4] sadfasdfsadf 2> error.log
+[2025-04-30 23:28:21] [/workspaces/cs190-ICE4] ls exercise/ | wc -l
+[2025-04-30 23:28:31] [/workspaces/cs190-ICE4] ls exercise/
+[2025-04-30 23:29:42] [/workspaces/cs190-ICE4] cat exercise/duplicates.txt | uniq | sort
+[2025-04-30 23:31:38] [/workspaces/cs190-ICE4] cat << EOF >> message.txt
+hello cs190
+ready for midterms?
+im not 
+EOF
+[2025-04-30 23:33:04] [/workspaces/cs190-ICE4] ls exercise/dir1/
+[2025-04-30 23:33:07] [/workspaces/cs190-ICE4] ls exercise/dir2/
+[2025-04-30 23:34:26] [/workspaces/cs190-ICE4] diff <(ls exercise/dir1) <ls exercise/dir2) 
+[2025-04-30 23:34:38] [/workspaces/cs190-ICE4] diff <(ls exercise/dir1) <(ls exercise/dir2) 
+[2025-04-30 23:34:42] [/workspaces/cs190-ICE4] diff <(ls exercise/dir1) <(ls exercise/dir2) 
+[2025-04-30 23:37:32] [/workspaces/cs190-ICE4] diff exercise/sample.txt exercise/sample2.txt 1c1
+[2025-04-30 23:37:35] [/workspaces/cs190-ICE4] diff exercise/sample.txt exercise/sample2.txt 
+[2025-04-30 23:37:53] [/workspaces/cs190-ICE4] diff exercise/sample.txt exercise/sample2.txt 1c1
+[2025-04-30 23:38:36] [/workspaces/cs190-ICE4] diff exercise/sample1.txt exercise/sample2.txt 1c1
+[2025-04-30 23:38:38] [/workspaces/cs190-ICE4] diff exercise/sample1.txt exercise/sample2.txt
